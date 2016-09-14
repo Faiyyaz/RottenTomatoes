@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "410227620388",
+    "firebase_url": "https://rottentomatoes-227b6.firebaseio.com",
+    "project_id": "rottentomatoes-227b6",
+    "storage_bucket": "rottentomatoes-227b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410227620388:android:f16f6300d6b14804",
+        "android_client_info": {
+          "package_name": "com.android.rottentomatoes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410227620388-cv0cr8l3orcgg15lpla55o8a68kc1fei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.rottentomatoes",
+            "certificate_hash": "06ED96CA2C500A4A9DC186A0A73342ACFFFE61E3"
+          }
+        },
+        {
+          "client_id": "410227620388-h0fh34pco2qrmn49tgvpd8u4dan42rjo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkWOK4WuXDsIiNWGPIeT9Zq_pLuUZYq58"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

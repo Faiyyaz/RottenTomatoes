@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.android.rottentomatoes.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@color/blue">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rotten"
+        android:layout_margin="5sp"/>
+
+    <Button
+        android:layout_below="@+id/imgLogo"
+    android:text="@string/sixteen"
+    android:layout_margin="5sp"
+    android:id="@+id/m2016"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:textColor="@color/white"
+    android:background="@drawable/orange"/>
+
+    <Button
+        android:text="@string/fifteen"
+        android:layout_margin="5sp"
+        android:id="@+id/m2015"
+        android:layout_below="@+id/m2016"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/orange"/>
+
+    <Button
+        android:text="@string/available"
+        android:layout_margin="5sp"
+        android:id="@+id/mavailable"
+        android:layout_below="@+id/m2015"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/orange"/>
+
+    <Button
+        android:text="@string/addmovie"
+        android:layout_margin="5sp"
+        android:id="@+id/addmovie"
+        android:layout_below="@+id/mavailable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/orange"/>
+
+</RelativeLayout>

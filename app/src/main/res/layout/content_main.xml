@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.android.rottentomatoes.LoginActivity"
+    tools:showIn="@layout/activity_login"
+    android:background="@color/blue">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rotten"
+        android:layout_margin="5sp"/>
+
+    <EditText
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:layout_margin="5sp"
+        android:id="@+id/name"
+        android:layout_below="@+id/imgLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:hint="@string/username"
+        android:background="@drawable/edittext"/>
+
+    <EditText
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:layout_margin="5sp"
+        android:id="@+id/password"
+        android:layout_below="@+id/name"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:hint="@string/password"
+        android:background="@drawable/edittext"/>
+
+    <Button
+        android:text="@string/login"
+        android:layout_margin="5dp"
+        android:id="@+id/login"
+        android:layout_below="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:text="@string/register"
+        android:layout_margin="5sp"
+        android:id="@+id/register"
+        android:layout_below="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:text="@string/forgot"
+        android:layout_margin="5sp"
+        android:id="@+id/forgot"
+        android:layout_below="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/button"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/fb"
+        android:layout_margin="5sp"
+        android:layout_below="@+id/forgot"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/gplus"
+        android:layout_margin="5sp"
+        android:layout_below="@+id/fb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+</RelativeLayout>
+</ScrollView>
